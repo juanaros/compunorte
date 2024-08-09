@@ -11,7 +11,7 @@ const Form = () => {
             <form 
                 className='w-full max-w-lg' 
                 name="compunorte-contact" 
-                method="post"
+                method="post" netlify
             >
                 <div className='flex flex-col gap-5 sm:flex-row sm:gap-3 mb-5'>
                     <input type="hidden" name="form-name" value="compunorte-contact" />
